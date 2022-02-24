@@ -1,0 +1,41 @@
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+    margin: 20px;
+    padding: 8px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+}
+
+.card .innerCard {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card .text {
+    color: black;
+    text-align: left;
+}
+
+.card .image {
+    align-self: center;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+}
